@@ -51,4 +51,10 @@ CodeCoverage/
 # NUnit
 *.VisualState.xml
 TestResult.xml
-nunit-*.xml
+nunit-*.xml# Ignore Visual Studio cache and metadata files
+.vs/
+*.v2
+*.suo
+*.vsidx
+*.json
+*.bin
